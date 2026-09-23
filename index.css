@@ -1,0 +1,27 @@
+
+html, body {
+    height: 100vh;
+    margin: 0;
+  }
+   
+
+  body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+  }
+   
+  .caixa {
+    border: 1px solid rgb(7, 7, 104);
+    width: 220px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: sans-serif;
+  }
+   
+  .caixa a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   

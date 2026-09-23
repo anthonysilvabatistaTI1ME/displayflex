@@ -1,0 +1,38 @@
+
+html, body {
+    height: 100vh;
+    margin: 0;
+  }
+   
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  
+  .pilha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .caixa {
+    border: 1px solid blue;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 4px;
+    font-family: sans-serif;
+    
+    margin-top: -1px;
+  }
+   
+  .pilha .caixa:first-child {
+    margin-top: 0;
+  }
+   
+  .caixa a {
+    color: #0000ff;
+    text-decoration: none;
+  }

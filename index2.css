@@ -1,0 +1,30 @@
+
+html, body {
+    height: 100vh;
+    margin: 0;
+  }
+   
+  .topo {
+    border-top: 3px solid rgb(17, 0, 255);
+    border-bottom: 1px solid blue;
+    box-sizing: border-box;
+  }
+   
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .item {
+    border: 1px solid green;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+   
+  .item a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   
